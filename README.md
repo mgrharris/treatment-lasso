@@ -6,3 +6,5 @@ We attempted to assess the impact of the number of connections independent of ot
 To do this, our group implemented a two-stage Lasso regression, also called a Treatment Lasso Method. In the first stage, we regressed the number of connections on other X variables to obtain a treatment variable of the number of connections independent of changes in X. In the second stage, we performed a subsequent Lasso regression using our treatment variable, our predicted treatment, and our multivariate X, only penalizing the multivariate X and treatment, and leaving the predicted treatment (d-hat) unpenalized.
 
 To evaluate the effectiveness of our model, we evaluated the Mean Squared Error to measure deviance, and employed a Confusion Matrix to assess our prediction accuracy. 
+
+Team members: Qihan Guan, Chloe Wang, Michael Harris. 

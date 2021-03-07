@@ -1,0 +1,2 @@
+# treatment-lasso
+In this group project, our team performed a two-stage Lasso Regression (Treatment Lasso) to isolate the effect of our treatment variable, the number of connections, on the propensity to receive a loan for households in rural India. This two-stage Lasso is intended to control for other X variables which were not randomized over, as this is an observational study, and to isolate the effect of our treatment variable.
